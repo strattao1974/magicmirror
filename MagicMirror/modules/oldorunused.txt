@@ -1,0 +1,21 @@
+		{
+    			module: 'MMM-Globe',
+    			position: 'bottom_bar',
+    			config: {
+        			style: 'geoColor',
+        			imageSize: 250,
+        			ownImagePath:'',
+        			updateInterval: 10*60*1000
+    			}
+		},
+{
+                	module: 'random_quotes',
+                	position: 'lower_third',
+                	config: {
+				updateInterval: 30
+                        // The config property is optional
+                        // Without a config, a random quote is shown,
+                        // selected from all of the categories available.
+                	}
+            	},
+		
